@@ -1,0 +1,14 @@
+---
+pagination:
+  data: collections.post
+  size: 6
+  alias: posts
+  reverse: true
+permalink: "/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}"
+---
+
+{% extends 'page.njk' %}
+
+{% block body %}
+  Welcome! <a href="/blog/intro/">Start here</a>.
+{% endblock %}

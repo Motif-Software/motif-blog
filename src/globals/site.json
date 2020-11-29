@@ -1,0 +1,24 @@
+{
+  "name": "Motif Software",
+  "description": "Accelerate invention by everyone",
+  "url": "https://www.motif.software",
+  "baseUrl": "/",
+  "author": {
+    "handle": "@motifsoft",
+    "name": "Oliver Lade"
+  },
+  "images": {
+    "twitter": "twitter.jpg",
+    "og": "og.jpg"
+  },
+  "feed": {
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://example.com/"
+  },
+  "jsonfeed": {
+    "filename": "feed.json",
+    "path": "/feed/feed.json",
+    "url": "https://example.com/feed/feed.json"
+  }
+}
